@@ -1,0 +1,14 @@
+<ng-container [ngSwitch]="flow">
+    <booking-desk-flow (menu)="show_menu = $event" *ngSwitchCase="'desks'"></booking-desk-flow>
+    <space-flow
+        (menu)="show_menu = $event"
+        *ngSwitchDefault
+    ></space-flow>
+    <qr-reader
+        *ngSwitchCase="'qr'"
+        (menu)="show_menu = $event"
+    >
+    </qr-reader>
+
+</ng-container>
+<a-overlay-menu [(show)]="show_menu"></a-overlay-menu>
