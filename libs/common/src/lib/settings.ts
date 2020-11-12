@@ -50,11 +50,13 @@ const app: any = {
     short_name: 'PwC ME',
     logo_light: {
         type: 'img',
-        src: 'assets/logo-light.svg'
+        // src: 'assets/logo-light.svg'
+        src: 'assets/ntt-light.svg'
     },
     logo_dark: {
         type: 'img',
-        src: 'assets/logo-dark.svg'
+        // src: 'assets/logo-dark.svg'
+        src: 'assets/ntt-dark.svg'
     },
     general: {}
 }

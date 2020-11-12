@@ -13,7 +13,7 @@ import * as dayjs from 'dayjs';
                 [routerLink]="['/home']"
                 class="h-full flex flex-col justify-center bg-black px-4"
             >
-                <img class="h-10 my-2" src="assets/logo-dark.svg" />
+                <img class="h-10 my-2" src="assets/ntt-dark.svg" />
             </a>
             <div
                 class="ml-auto h-full flex flex-col justify-center text-white px-4"

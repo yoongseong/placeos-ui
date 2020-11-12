@@ -75,7 +75,8 @@ const general = {
  * HOME PAGE SETTINGS
  */
 const home = {
-    background: 'assets/img/skyline.jpg',
+    // background: 'assets/img/skyline.jpg',
+    background: 'assets/img/ntt-sora.jpg',
     tiles: [
         {
             name: 'Booking',
@@ -306,11 +307,13 @@ const app = {
     short_name: 'KIOSK',
     logo_light: {
         type: 'img',
-        src: 'assets/logo-light.svg'
+        // src: 'assets/logo-light.svg'
+        src: 'assets/ntt-light.svg'
     },
     logo_dark: {
         type: 'img',
-        src: 'assets/logo-dark.svg'
+        // src: 'assets/logo-dark.svg'
+        src: 'assets/ntt-dark.svg'
     },
     general,
     home,
