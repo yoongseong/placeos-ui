@@ -16,7 +16,7 @@ export const MOCK_ORGS = [
 
 export const MOCK_BUILDINGS = [
     {
-        name: 'Sydney',
+        name: 'Cyberjaya',
         description: '',
         tags: 'building',
         count: 0,
@@ -26,7 +26,7 @@ export const MOCK_BUILDINGS = [
         id: 'bld-01',
     },
     {
-        name: 'Brisbane',
+        name: 'Kuala Lumpur',
         description: '',
         tags: 'building',
         count: 0,
@@ -36,7 +36,7 @@ export const MOCK_BUILDINGS = [
         id: 'bld-02',
     },
     {
-        name: 'Melbourne',
+        name: 'Petaling Jaya',
         description: '',
         tags: 'building',
         count: 0,

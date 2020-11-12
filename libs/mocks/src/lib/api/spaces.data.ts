@@ -12,8 +12,8 @@ const randomSpaceFeatures = () => {
 };
 
 export const MOCK_SPACES = [
-    { name: 'Meeting Room 1.01', map_id: 'area-1.01-status', zones: ['lvl-01'] },
-    { name: 'Meeting Room 1.02', map_id: 'area-1.02-status', zones: ['lvl-01'] },
+    { name: 'Meeting Room Kiji', map_id: 'area-1.01-status', zones: ['lvl-01'] },
+    { name: 'Meeting Room Uguisu', map_id: 'area-1.02-status', zones: ['lvl-01'] },
     { name: 'Meeting Room 1.03', map_id: 'area-1.03-status', zones: ['lvl-01'] },
     { name: 'Meeting Room 1.04', map_id: 'area-1.04-status', zones: ['lvl-01'] },
     { name: 'Meeting Room 1.05', map_id: 'area-1.05-status', zones: ['lvl-01'], bookable: false },

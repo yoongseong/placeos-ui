@@ -9,7 +9,7 @@ import { format } from 'date-fns';
         <header>
             <a-topbar-header [(menu)]="show_menu"></a-topbar-header>
             <div class="top relative flex flex-col justify-center text-white px-12 py-4">
-                <div class="row location">Sydney</div>
+                <div class="row location">Kuala Lumpur</div>
                 <div class="row text-2xl text-bold uppercase">{{ datetime }}</div>
             </div>
         </header>

@@ -266,7 +266,8 @@ const space_display: any = {
 \*===========================*/
 const directory: any = {
     show_avatars: true,
-    min_search_length: 3,
+    // min_search_length: 3,
+    min_search_length: 0,
 };
 /*===========================*\
 ||    SCHEULDE SETTINGS   ||

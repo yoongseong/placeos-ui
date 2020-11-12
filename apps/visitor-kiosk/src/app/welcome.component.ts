@@ -14,13 +14,13 @@ import { BaseClass, SettingsService } from '@user-interfaces/common';
             <div
                 class="flex flex-col flex-1 w-full items-center justify-center text-white bg-black bg-opacity-50 space-y-4"
             >
-                <h3 class="text-2xl">Welcome to PlaceOS Self Service Kiosk</h3>
+                <h3 class="text-3xl">Safe & Secure Workplace</h3>
                 <a
                     matRipple
                     [routerLink]="['/checkin']"
                     class="text-xl py-2 px-8 mt-4 border-2 border-white text-white w-40 whitespace-nowrap flex items-center justify-center"
                 >
-                    Check In
+                    CHECK IN
                 </a>
                 <a
                     *ngIf="level"
