@@ -72,7 +72,7 @@ export const DEFAULT_SETTINGS: SettingsOptions = {
         protocol: '',
         port: '',
         use_domain: false,
-        local_login: false,
+        local_login: true,
     },
     app
 };
