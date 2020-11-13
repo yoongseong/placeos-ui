@@ -16,11 +16,11 @@ import { BaseClass, SettingsService } from '@user-interfaces/common';
             >
                 <h3 class="text-3xl">Safe & Secure Workplace</h3>
                 <a
-                    matRipple
-                    [routerLink]="['/checkin']"
+                    matRipple                    
+                    [routerLink]="['/checkin', 'covid']"
                     class="text-xl py-2 px-8 mt-4 border-2 border-white text-white w-40 whitespace-nowrap flex items-center justify-center"
                 >
-                    CHECK IN
+                    Check In
                 </a>
                 <a
                     *ngIf="level"

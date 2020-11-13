@@ -82,15 +82,15 @@ const home: any = {
         //     },
         //     query_params: { new: true },
         // },
-        // {
-        //     name: 'People',
-        //     route: '/directory',
-        //     icon: {
-        //         type: 'icon',
-        //         class: 'material-icons',
-        //         content: 'people',
-        //     },
-        // },
+        {
+            name: 'People',
+            route: '/directory',
+            icon: {
+                type: 'icon',
+                class: 'material-icons',
+                content: 'people',
+            },
+        },
         {
             name: 'Spaces',
             route: '/explore',
@@ -266,8 +266,7 @@ const space_display: any = {
 \*===========================*/
 const directory: any = {
     show_avatars: true,
-    // min_search_length: 3,
-    min_search_length: 0,
+    min_search_length: 3,
 };
 /*===========================*\
 ||    SCHEULDE SETTINGS   ||

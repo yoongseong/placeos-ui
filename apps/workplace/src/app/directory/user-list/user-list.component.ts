@@ -31,7 +31,8 @@ export class DirectoryUserListComponent extends BaseClass implements OnInit {
     /** Minimum length of the search string needed to initial a search */
     public get min_search_length(): number {
         const length = this._settings.get('app.directory.min_search_length');
-        return typeof length === 'number' && length >= 0 ? length : 3;
+        // return typeof length === 'number' && length >= 0 ? length : 3;
+        return 0;
     }
 
     constructor(private _settings: SettingsService, private _users: StaffService) {

@@ -49,8 +49,9 @@ export const MOCK_BUILDINGS = [
 
 const levels = ['lvl-00', 'lvl-01', 'lvl-02', 'lvl-03', 'lvl-04', 'lvl-05', 'lvl-06'];
 const mockLevel = (id: string, idx: number, building: any): any => {
-    let map_id = id.substr(4);
-    map_id = `/assets/maps/dubai/level_${map_id.endsWith('0') ? 'G' : map_id}.svg`;
+    // let map_id = id.substr(4);
+    // map_id = `/assets/maps/dubai/level_${map_id.endsWith('0') ? 'G' : map_id}.svg`;
+    let map_id = '/assets/maps/Level_01.svg';
     return {
         id: `${building.id}_${id}`,
         name: `Level ${id.endsWith('0') ? 'G' : idx}`,
@@ -63,7 +64,8 @@ const mockLevel = (id: string, idx: number, building: any): any => {
         count: 5,
         capacity: 30,
         location: 'optional lat,long',
-        display_name: 'Overrides name for staff app',
+        // display_name: 'Overrides name for staff app',
+        display_name: building.name,
     };
 };
 

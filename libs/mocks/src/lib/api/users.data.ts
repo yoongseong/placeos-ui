@@ -1,6 +1,6 @@
 import { DOMAIN } from './common.mock';
 
-const PREDEF_USERS = [
+/* const PREDEF_USERS = [
     'Jonathan McFarlane',
     'Alex Sorafumo',
     'Jim Doe',
@@ -17,6 +17,16 @@ const PREDEF_USERS = [
     'Stephen Von Takach',
     'Cameron Reeves',
     'Shane Boseley'
+]; */
+
+const PREDEF_USERS = [
+    'Char-Boo Lim',
+    'Tze-Yoong Tee',
+    'Hong-Mun Wong',
+    'Michael Ng',
+    'Ming-Keat Pang',
+    'Yoong-Seong Hui',
+    'Susan Wong'
 ];
 
 export const ACTIVE_USER = {
@@ -34,7 +44,8 @@ export const MOCK_STAFF = PREDEF_USERS.map((name, i) => ({
 export const MOCK_GUESTS = PREDEF_USERS.map((name, i) => ({
     id: `guest-${i + 1}`,
     name,
-    email: `${name.split(' ').join('.').toLowerCase()}@not-${DOMAIN}`
+    // email: `${name.split(' ').join('.').toLowerCase()}@not-${DOMAIN}`
+    email: `${name.split(' ').join('.').toLowerCase()}@${DOMAIN}`
 }));
 
 console.log('STAFF:', MOCK_STAFF);
