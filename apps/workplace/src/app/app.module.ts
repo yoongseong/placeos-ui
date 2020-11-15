@@ -16,11 +16,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { environment } from '../environments/environment';
 import { SharedOverlaysModule } from './overlays/overlays.module';
 import { SharedContentModule } from './ui/shared.module';
+import { MapwizeComponent } from './mapwize/mapwize.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         UnauthorisedComponent
+        // MapwizeComponent
     ],
     imports: [
         BrowserModule,

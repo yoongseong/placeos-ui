@@ -2,9 +2,17 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { UnauthorisedComponent, AuthorisedUserGuard } from '@user-interfaces/components';
+import { MapwizeComponent } from './mapwize/mapwize.component';
 
 const routes: Routes = [
     { path: 'unauthorised', component: UnauthorisedComponent },
+    // { path: 'mapwize', component: MapwizeComponent },
+    {
+        path: 'mapwize',
+        canActivate: [AuthorisedUserGuard],
+        canLoad: [AuthorisedUserGuard],
+        loadChildren: () => import('./mapwize/mapwize.module').then((m) => m.MapwizeModule),
+    },
     {
         path: 'dashboard',
         canActivate: [AuthorisedUserGuard],
@@ -46,7 +54,7 @@ const routes: Routes = [
         canActivate: [AuthorisedUserGuard],
         canLoad: [AuthorisedUserGuard],
         loadChildren: () => import('./help/help.module').then((m) => m.HelpModule),
-    },
+    },    
     { path: '**', redirectTo: 'dashboard', pathMatch: 'full' },
 ];
 

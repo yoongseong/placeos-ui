@@ -32,7 +32,7 @@ import { getModule } from '@placeos/ts-client';
             class="absolute top-0 left-0"
         ></explore-map-controls>
         <explore-search class="absolute top-0 right-0"></explore-search>
-        <div
+        <!-- <div
             name="zones"
             class="p-2 bg-white border border-gray-400 absolute left-0 m-2 rounded flex items-center"
         >
@@ -42,7 +42,7 @@ import { getModule } from '@placeos/ts-client';
                 [ngModel]="(options | async)?.show_zones"
                 (ngModelChange)="setOptions({ show_zones: $event })"
             ></mat-slide-toggle>
-        </div>
+        </div> -->
     `,
     styles: [
         `
@@ -52,7 +52,7 @@ import { getModule } from '@placeos/ts-client';
             }
 
             [name='zones'] {
-                top: 3.5rem;
+                top: 7.5rem;
             }
         `,
     ],

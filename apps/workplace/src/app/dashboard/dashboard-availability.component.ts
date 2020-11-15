@@ -31,7 +31,7 @@ import { DashboardStateService } from './dashboard-state.service';
                 </a>
             </div>
         </div>
-        <div class="flex items-center flex-col rounded-lg bg-white my-4 p-2">
+        <!-- <div class="flex items-center flex-col rounded-lg bg-white my-4 p-2">
             <div class="flex items-center w-full mb-2">
                 <app-icon
                     class="bg-darken rounded-lg mr-2 text-2xl"
@@ -51,7 +51,7 @@ import { DashboardStateService } from './dashboard-state.service';
                 </a>
                 <span *ngIf="!(space_list | async).length" class="text-dark-fade text-sm mb-2">No free spaces</span>
             </div>
-        </div>
+        </div> -->
     `,
     styles: [
         `
