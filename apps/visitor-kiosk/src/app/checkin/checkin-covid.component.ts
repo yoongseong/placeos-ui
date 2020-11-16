@@ -15,15 +15,8 @@ import { CheckinStateService } from './checkin-state.service';
                         <li>Fever</li>
                         <li>Cough</li>
                         <li>Shortness of breath</li>
-                        <li>Chills</li>
-                        <li>Body aches</li>
                         <li>Sore or scratchy throat</li>
-                        <li>Headache</li>
                         <li>Runny nose</li>
-                        <li>Muscle pain</li>
-                        <li>Vomitting</li>
-                        <li>Nausea</li>
-                        <li>Diarrhoa</li>
                         <li>Loss of taste or smell</li>
                     </ul>
                     <mat-radio-group

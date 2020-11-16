@@ -12,14 +12,12 @@ const randomSpaceFeatures = () => {
 };
 
 export const MOCK_SPACES = [
-    { name: 'Meeting Room Kiji', map_id: 'area-01.39-status', zones: ['lvl-01'] },
-    { name: 'Meeting Room Uguisu', map_id: 'area-01.38-status', zones: ['lvl-01'] },
-    { name: 'Meeting Room Washi', map_id: 'area-01.37-status', zones: ['lvl-01'] },
-    { name: 'Meeting Room Take', map_id: 'area-1.04-status', zones: ['lvl-01'] },
-    { name: 'Meeting Room Ume', map_id: 'area-1.05-status', zones: ['lvl-01'], bookable: false },
-    { name: 'Meeting Room Kiku', map_id: 'area-1.06-status', zones: ['lvl-01'] },
-    { name: 'Meeting Room Yuri', map_id: 'area-1.07-status', zones: ['lvl-01'] },
-    { name: 'Meeting Room Ayame', map_id: 'area-1.08-status', zones: ['lvl-01'] },
-    { name: 'Meeting Room Suisen', map_id: 'area-1.01-status', zones: ['lvl-01'] },
-    { name: 'Meeting Room Hinagiku', map_id: 'area-1.10-status', zones: ['lvl-01'] },
+    { name: 'Meeting Room Kiji', map_id: 'area-02.09-status_1_', zones: ['bld-01_lvl-01'] },
+    { name: 'Meeting Room Kurumi', map_id: 'area-02.05-status', zones: ['bld-01_lvl-01'] },
+    { name: 'NTT Innovation CoE', map_id: 'area-02.10-status_1_', zones: ['bld-01_lvl-01'] },
+    { name: 'Meeting Room Take', map_id: 'area-02.15-status', zones: ['bld-01_lvl-01'] },
+    { name: 'Meeting Room Ume', map_id: 'area-02.37-status', zones: ['bld-01_lvl-01'], bookable: false },
+    { name: 'Hot Desk 01', map_id: 'area-02.48-status', zones: ['bld-01_lvl-01'] },
+    { name: 'Hot Desk 02', map_id: 'area-02.49-status', zones: ['bld-01_lvl-01'] },
+    { name: 'Hot Desk 03', map_id: 'area-02.47-status', zones: ['bld-01_lvl-01'] },
 ].map(d => generateMockSpace({ ...d, features: randomSpaceFeatures() }));
