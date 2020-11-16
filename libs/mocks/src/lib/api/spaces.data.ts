@@ -20,4 +20,7 @@ export const MOCK_SPACES = [
     { name: 'Hot Desk 01', map_id: 'area-02.48-status', zones: ['bld-01_lvl-01'] },
     { name: 'Hot Desk 02', map_id: 'area-02.49-status', zones: ['bld-01_lvl-01'] },
     { name: 'Hot Desk 03', map_id: 'area-02.47-status', zones: ['bld-01_lvl-01'] },
+    { name: 'Hot Desk 04', map_id: 'area-02.39-status', zones: ['bld-01_lvl-01'] },
+    { name: 'Hot Desk 05', map_id: 'area-02.40-status', zones: ['bld-01_lvl-01'] },
+    { name: 'Hot Desk 06', map_id: 'area-02.46-status', zones: ['bld-01_lvl-01'] },
 ].map(d => generateMockSpace({ ...d, features: randomSpaceFeatures() }));
