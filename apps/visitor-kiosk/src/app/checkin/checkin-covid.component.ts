@@ -6,7 +6,7 @@ import { CheckinStateService } from './checkin-state.service';
 @Component({
     selector: '[checkin-covid]',
     template: `
-        <div class="bg-white rounded p-4 relative">
+        <div class="bg-white rounded p-4 relative overflow-y-auto overflow-x-hidden">
             <h3 class="text-xl font-medium mb-4">COVID Disclaimer</h3>
             <ol class="list-decimal list-inside">
                 <li>
@@ -15,8 +15,15 @@ import { CheckinStateService } from './checkin-state.service';
                         <li>Fever</li>
                         <li>Cough</li>
                         <li>Shortness of breath</li>
+                        <li>Chills</li>
+                        <li>Body aches</li>
                         <li>Sore or scratchy throat</li>
+                        <li>Headache</li>
                         <li>Runny nose</li>
+                        <li>Muscle pain</li>
+                        <li>Vomitting</li>
+                        <li>Nausea</li>
+                        <li>Diarrhoa</li>
                         <li>Loss of taste or smell</li>
                     </ul>
                     <mat-radio-group
@@ -71,7 +78,8 @@ import { CheckinStateService } from './checkin-state.service';
 
             :host > div {
                 width: 32rem;
-                max-width: calc(100vw - 2rem);
+                max-width: calc(100vw - 2rem);                
+                max-height: calc(100% - 2rem);
             }
 
             .absolute {
